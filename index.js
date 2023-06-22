@@ -38,7 +38,7 @@ router.post('/chat', async (ctx, next) => {
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-app.listen(80, () => console.log('server started: http://localhost:3000'));
+app.listen(3000, () => console.log('server started: http://localhost:3000'));
 
 async function main() {
 	// 开启 stream 配置并设置 responseType
