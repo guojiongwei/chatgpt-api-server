@@ -24,7 +24,7 @@ router.post('/chat', async (ctx, next) => {
     'Cache-Control': 'no-cache',
     'Content-Type': 'text/event-stream',
   });
-  console.log(messages)
+//  console.log(messages)
   ctx.body = stream;
   ctx.status = 200;
 
